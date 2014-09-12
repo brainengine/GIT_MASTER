@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>ABC_Criteria_Rule</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>contains</operation>
+            <value>ABC</value>
+        </criteriaItems>
+        <accessLevel>Edit</accessLevel>
+        <name>ABC Criteria Rule</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>ABC_Sharing_Rule</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <accessLevel>Edit</accessLevel>
+        <name>ABC Sharing Rule</name>
+    </ownerRules>
+</CustomObjectSharingRules>
