@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <CallCenter xmlns="http://soap.sforce.com/2006/04/metadata">
     <adapterUrl>http://localhost:11000</adapterUrl>
-    <displayName>My Call Center</displayName>
+    <displayName>My Call Center009099</displayName>
     <displayNameLabel>Display Name</displayNameLabel>
     <internalNameLabel>Internal Name</internalNameLabel>
     <sections>
